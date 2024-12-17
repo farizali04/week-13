@@ -56,3 +56,14 @@ Angka tersebut akan ditampilkan di layar
 Menggunakan stream untuk mengelola perubahan data secara reaktif
 
 ![Screenshot](assets/Screenshot%20(68).png)
+
+### Soal 7
+Langkah-langkah ini menunjukkan mekanisme menangani error dalam stream di Dart.
+
+Fungsi addError() digunakan untuk mengirim error ke dalam stream.
+
+Listener mendeteksi error tersebut melalui callback onError dan mengambil tindakan (misalnya mengatur nilai lastNumber menjadi -1 sebagai indikator error).
+
+Fungsi addRandomNumber() menunjukkan contoh pemicu error ke dalam stream.
+
+![Screenshot](assets/Screenshot%20(69).png)
